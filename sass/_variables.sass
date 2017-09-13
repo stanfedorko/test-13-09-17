@@ -1,0 +1,25 @@
+// MAIN FONT FAMILY
+
+=lato
+	font-family: 'Lato', sans-serif
+
+=natosans
+	font-family: 'Noto Sans', sans-serif;
+
+=montserrat
+	font-family: 'Montserrat', sans-serif;
+
+=hf
+	&:hover, &:focus
+		@content
+
+=rem($fontSize)
+	/*#{$fontSize}px*/
+	font-size: ($fontSize/$fontSizeBase) + rem
+
+// BASE FONT SIZE
+$fontSizeBase: 16
+
+// COLORS
+
+$red: #c72026
